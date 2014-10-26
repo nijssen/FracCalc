@@ -1,0 +1,4 @@
+#!/bin/sh
+
+java -jar $HOME/NetBeansProjects/FracCalc/dist/FracCalc.jar < ggg.txt > res.txt
+perl ./table.pl
