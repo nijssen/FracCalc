@@ -1,6 +1,5 @@
 package fraccalc;
 
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -17,7 +16,7 @@ public class FracCalc {
      * 
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         System.err.println("Welcome!");
         
         Scanner sc = new Scanner(System.in);
